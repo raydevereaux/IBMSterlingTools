@@ -1,0 +1,17 @@
+
+body {
+padding: 10 10 25 25;
+} 
+.home {
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 10px;
+font-weight:bold;
+text-decoration:none;
+color:blue;
+title: Home.do
+}
+.home:hover {
+font-size: 18px;
+}
