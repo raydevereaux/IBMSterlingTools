@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 public class IbmSterlingToolsApplication extends SpringBootServletInitializer {
 
-    // 13.49 comment
+    // 15.00 comment
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
          return application.sources(IbmSterlingToolsApplication.class);
