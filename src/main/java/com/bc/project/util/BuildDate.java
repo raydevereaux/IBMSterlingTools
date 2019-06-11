@@ -10,7 +10,8 @@ public class BuildDate {
 
 	public static SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy.HH.mm.ss.hhh");
 	public static void main(String[] args) throws Exception {
-		System.out.println(BuildDate. getBuildDate());
+		System.out.print("\033[H\033[2J");
+		//System.out.println(BuildDate. getBuildDate());
 	}
 
 	public static String getBuildDate() {
