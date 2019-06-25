@@ -10,7 +10,7 @@ import com.bc.util.http.HttpResultCodes;
 
 public class FormatStatus {
 
-
+	//comment
 	public static String jsonMessage(HttpRequestBase request,Exception e, String url, Integer responseCode, String reqMethod) {
 		String json = FormatStatus.jsonMessage(request, e, url, responseCode, reqMethod, "default");
 		return json;
