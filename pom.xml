@@ -208,6 +208,7 @@
     <!-- end::security[] -->
 
     <build>
+   	<finalName>IBMSterlingTools</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
