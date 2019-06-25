@@ -12,7 +12,7 @@ public class DatasourcesOracle {
 	public DataSource getHmigPeoplesoftDS() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	    ds.setDriverClassName("oracle.jdbc.OracleDriver");
-		ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HMIG.bo.bc.com");
+	    ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HMIG.bo.bc.com");
 	    ds.setUsername("IB_OQ");
 	    ds.setPassword("B01se17");
 	    return ds;
@@ -22,7 +22,7 @@ public class DatasourcesOracle {
 	public DataSource getHdevPeoplesoftDS() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	    ds.setDriverClassName("oracle.jdbc.OracleDriver");
-		ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HDEV.bo.bc.com");
+	    ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HDEV.bo.bc.com");
 	    ds.setUsername("IB_OQ");
 	    ds.setPassword("B01se17");
 	    return ds;
@@ -32,7 +32,7 @@ public class DatasourcesOracle {
 	public DataSource getHtstPeoplesoftDS() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	    ds.setDriverClassName("oracle.jdbc.OracleDriver");
-		ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HTST.bo.bc.com");
+	    ds.setUrl("jdbc:oracle:thin:@bouxdora02.bc.com:1521/HTST.bo.bc.com");
 	    ds.setUsername("IB_OQ");
 	    ds.setPassword("B01se17");
 	    return ds;
@@ -42,7 +42,7 @@ public class DatasourcesOracle {
 	public DataSource getHprdPeoplesoftDS() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	    ds.setDriverClassName("oracle.jdbc.OracleDriver");
-		ds.setUrl("jdbc:oracle:thin:@bouxpora02.bc.com:1521/HPRD.bo.bc.com");
+	    ds.setUrl("jdbc:oracle:thin:@bouxpora02.bc.com:1521/HPRD.bo.bc.com");
 	    ds.setUsername("IB_OQ");
 	    ds.setPassword("B01se17");
 	    return ds;
@@ -62,7 +62,7 @@ public class DatasourcesOracle {
 	public DataSource getBdevPeoplesoftDS() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 	    ds.setDriverClassName("oracle.jdbc.OracleDriver");
-	    ds.setUrl("jdbc:oracle:thin:@bouxdora01.bc.com:1521:BDEV");
+	    ds.setUrl("jdbc:oracle:thin:@bouxdora01.bc.com:1521/BDEV.bo.bc.com");
 	    ds.setUsername("IB_OQ");
 	    ds.setPassword("B01se17");
 	    return ds;
