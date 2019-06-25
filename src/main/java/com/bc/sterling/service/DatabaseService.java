@@ -7,6 +7,7 @@ import org.json.JSONObject;
 
 public interface DatabaseService {
 	
+	//comment 06/25/2019 13.31
 	public Map<String,String> getDBServerData(String type, String server, String schema, String dbUser, String dbPass);
 	public Map<String,String> getMSSqlServerList(String server, String schema, String dbUser, String dbPass);
 	public Map<String,String> getOracleList(String server, String schema, String dbUser, String dbPass);
